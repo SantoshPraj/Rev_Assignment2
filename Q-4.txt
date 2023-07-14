@@ -1,0 +1,52 @@
+Q4.What are the conditional Statements and use of conditional statements in Java?
+
+
+
+
+ANSWER:
+
+
+
+Conditional statements in Java allow you to control the flow of execution based on certain conditions. They enable your program to make decisions and execute different blocks of code depending on whether a condition is true or false. Java provides three types of conditional statements:
+
+1. if Statement:
+   - The if statement allows you to execute a block of code if a given condition is true.
+   - It has the following syntax:
+     ```java
+     if (condition) {
+         // code to be executed if the condition is true
+     }
+     ```
+   - If the condition evaluates to true, the code within the block is executed. If the condition is false, the block is skipped.
+
+2. if-else Statement:
+   - The if-else statement extends the if statement by providing an alternative block of code to be executed if the condition is false.
+   - It has the following syntax:
+     ```java
+     if (condition) {
+         // code to be executed if the condition is true
+     } else {
+         // code to be executed if the condition is false
+     }
+     ```
+   - If the condition is true, the code within the if block is executed. Otherwise, the code within the else block is executed.
+
+3. switch Statement:
+   - The switch statement allows you to perform multiple tests on a single variable or expression and execute different blocks of code based on the value.
+   - It has the following syntax:
+     ```java
+     switch (variable/expression) {
+         case value1:
+             // code to be executed if variable/expression matches value1
+             break;
+         case value2:
+             // code to be executed if variable/expression matches value2
+             break;
+         // more cases...
+         default:
+             // code to be executed if variable/expression doesn't match any case
+     }
+     ```
+   - The switch statement evaluates the variable/expression and executes the code block that matches the corresponding value. If no match is found, the code within the default block is executed.
+
+The use of conditional statements is crucial for implementing decision-making logic in Java programs. They enable you to handle different scenarios, perform validations, control program flow, and execute specific code based on conditions. Conditional statements enhance the flexibility and control of your program's behavior, making it more dynamic and responsive.

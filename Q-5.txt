@@ -1,0 +1,32 @@
+Q5.What is the syntax of if else statement?
+
+
+
+ANSWER:
+
+
+The syntax of the if-else statement in Java is as follows:
+
+```java
+if (condition) {
+    // code to be executed if the condition is true
+} else {
+    // code to be executed if the condition is false
+}
+```
+
+Here's a breakdown of the syntax components:
+
+1. `if`: The keyword "if" marks the beginning of the if-else statement.
+
+2. `condition`: The condition is a boolean expression that determines whether the code within the if block or the else block will be executed. The condition should evaluate to either true or false.
+
+3. `code to be executed if the condition is true`: This block of code is executed if the condition specified in the if statement is true.
+
+4. `else`: The keyword "else" follows the if block and marks the beginning of the else block.
+
+5. `code to be executed if the condition is false`: This block of code is executed if the condition specified in the if statement is false.
+
+The if-else statement allows you to create a branching structure in your code. If the condition in the if statement is true, the code within the if block is executed. If the condition is false, the code within the else block is executed. Only one of the code blocks will be executed; either the if block or the else block, but not both.
+
+It's important to note that the else block is optional. If you don't need to execute any code when the condition is false, you can omit the else block and only include the if block.

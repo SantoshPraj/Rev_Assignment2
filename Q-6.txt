@@ -1,0 +1,73 @@
+Q6.How do you compare two strings in Java?
+
+
+
+
+ANSWER:
+
+
+
+
+In Java, you can compare two strings using various methods depending on the comparison criteria. Here are a few commonly used approaches to compare strings in Java:
+
+1. Using the `equals()` method:
+   - The `equals()` method is used to compare the contents of two strings for equality.
+   - It returns `true` if the two strings have the same sequence of characters, and `false` otherwise.
+   - Example:
+     ```java
+     String str1 = "Hello";
+     String str2 = "World";
+     if (str1.equals(str2)) {
+         // Strings are equal
+     } else {
+         // Strings are not equal
+     }
+     ```
+
+2. Using the `equalsIgnoreCase()` method:
+   - The `equalsIgnoreCase()` method is similar to `equals()`, but it performs a case-insensitive comparison.
+   - It returns `true` if the two strings are equal, disregarding the differences in case.
+   - Example:
+     ```java
+     String str1 = "Hello";
+     String str2 = "hello";
+     if (str1.equalsIgnoreCase(str2)) {
+         // Strings are equal (case-insensitive)
+     } else {
+         // Strings are not equal (case-insensitive)
+     }
+     ```
+
+3. Using the relational operators (`==`, `!=`, `<`, `>`, `<=`, `>=`):
+   - The relational operators can be used to compare the references of two string objects.
+   - They compare the memory addresses of the objects, not their actual content.
+   - Example:
+     ```java
+     String str1 = "Hello";
+     String str2 = "Hello";
+     if (str1 == str2) {
+         // Strings are equal (same reference)
+     } else {
+         // Strings are not equal (different reference)
+     }
+     ```
+
+4. Using the `compareTo()` method:
+   - The `compareTo()` method compares two strings lexicographically.
+   - It returns an integer value that indicates the difference between the two strings based on the Unicode values of their characters.
+   - It returns 0 if the strings are equal, a negative value if the first string is lexicographically smaller, and a positive value if the first string is lexicographically greater.
+   - Example:
+     ```java
+     String str1 = "Hello";
+     String str2 = "World";
+     int result = str1.compareTo(str2);
+     if (result == 0) {
+         // Strings are equal
+     } else if (result < 0) {
+         // str1 is lexicographically smaller than str2
+     } else {
+         // str1 is lexicographically greater than str2
+     }
+     ```
+
+It's important to note that when comparing strings, using the `equals()` or `equalsIgnoreCase()` methods is generally recommended for comparing the actual content of the strings, rather than using the `==` operator, which compares the references of the string objects.

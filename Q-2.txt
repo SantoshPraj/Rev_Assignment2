@@ -1,0 +1,28 @@
+Q2. What are the types of operators based on the number of operands?
+
+
+
+
+ANSWER:
+
+
+
+Operators in Java can be classified based on the number of operands they operate on. The three types of operators based on the number of operands are:
+
+1. Unary Operators:
+   - Unary operators work on a single operand.
+   - They perform operations such as negation, increment, decrement, logical complement, and type casting.
+   - Examples of unary operators: -, ++, --, !, (type).
+
+2. Binary Operators:
+   - Binary operators work on two operands.
+   - They perform operations such as arithmetic calculations, logical operations, assignment, comparison, and bitwise operations.
+   - Examples of binary operators: +, -, *, /, %, ==, !=, >, <, &&, ||, =, &, |, ^.
+
+3. Ternary Operator:
+   - The ternary operator, also known as the conditional operator, operates on three operands.
+   - It is the only ternary operator in Java and is denoted by the "? :" syntax.
+   - It evaluates a boolean expression and returns one of two possible values based on the result of the evaluation.
+   - Example: int result = (condition) ? value1 : value2;
+
+These different types of operators provide flexibility and allow programmers to perform a wide range of operations in their Java programs. Understanding the number of operands an operator works with is essential for correct usage and achieving the desired behavior.

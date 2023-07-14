@@ -1,0 +1,41 @@
+Q1. What are the Conditional Operators in Java?
+
+
+
+ANSWER:
+
+
+
+In Java, conditional operators are used to perform conditional or logical operations and evaluate conditions. These operators return a boolean value (true or false) based on the comparison or evaluation of the given expressions. The conditional operators in Java are:
+
+1. Equality Operator (==):
+   - The equality operator checks if two operands are equal.
+   - It returns true if the operands are equal; otherwise, it returns false.
+   - Example: `int a = 5; int b = 7; boolean result = (a == b); // result will be false`
+
+2. Inequality Operator (!=):
+   - The inequality operator checks if two operands are not equal.
+   - It returns true if the operands are not equal; otherwise, it returns false.
+   - Example: `int a = 5; int b = 7; boolean result = (a != b); // result will be true`
+
+3. Greater Than Operator (>):
+   - The greater than operator checks if the left operand is greater than the right operand.
+   - It returns true if the left operand is greater; otherwise, it returns false.
+   - Example: `int a = 5; int b = 7; boolean result = (a > b); // result will be false`
+
+4. Less Than Operator (<):
+   - The less than operator checks if the left operand is less than the right operand.
+   - It returns true if the left operand is less; otherwise, it returns false.
+   - Example: `int a = 5; int b = 7; boolean result = (a < b); // result will be true`
+
+5. Greater Than or Equal To Operator (>=):
+   - The greater than or equal to operator checks if the left operand is greater than or equal to the right operand.
+   - It returns true if the left operand is greater than or equal; otherwise, it returns false.
+   - Example: `int a = 5; int b = 7; boolean result = (a >= b); // result will be false`
+
+6. Less Than or Equal To Operator (<=):
+   - The less than or equal to operator checks if the left operand is less than or equal to the right operand.
+   - It returns true if the left operand is less than or equal; otherwise, it returns false.
+   - Example: `int a = 5; int b = 7; boolean result = (a <= b); // result will be true`
+
+These conditional operators are commonly used in decision-making constructs like if statements, while loops, and for loops to control the flow of the program based on certain conditions. They provide the means to compare values and make logical evaluations in Java.

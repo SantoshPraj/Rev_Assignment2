@@ -1,0 +1,25 @@
+
+💡 Q10.Where exactly is the string constant pool located in the memory?
+
+
+
+
+ANSWER:
+
+
+
+In Java, the string constant pool is a special area in the Java Virtual Machine's (JVM) memory. It is a part of the runtime constant pool, which is a storage area for various constants used in a Java program.
+
+The string constant pool is located in the JVM's heap memory, specifically within the non-heap area called the "permgen" (permanent generation) or "metaspace" (starting from Java 8).
+
+Before Java 7:
+- In earlier versions of Java (up to Java 6), the string constant pool was stored in the "permgen" space, which is a fixed-size memory area separate from the Java heap.
+- The "permgen" space stores metadata about classes and other JVM-related information, including the string constant pool.
+
+Starting from Java 7:
+- In Java 7 and later versions, the "permgen" space has been replaced by the "metaspace," which is part of the native memory rather than the JVM's heap memory.
+- The "metaspace" dynamically manages memory for class metadata and the string constant pool.
+
+Regardless of the version, the string constant pool is a shared pool of unique string literals created during the execution of a Java program. It is used to optimize memory usage by reusing string objects.
+
+In summary, the string constant pool is located within the JVM's heap memory area in earlier versions of Java (permgen) and within the native memory area (metaspace) starting from Java 7.

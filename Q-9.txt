@@ -1,0 +1,29 @@
+Q9.Write a program to check if the letter 'e' is present in the word 'Umbrella'
+
+
+
+
+ANSWER:
+
+
+
+public class CheckLetterExample {
+    public static void main(String[] args) {
+        String word = "Umbrella";
+        char targetLetter = 'e';
+        boolean isPresent = false;
+
+        for (int i = 0; i < word.length(); i++) {
+            if (word.charAt(i) == targetLetter) {
+                isPresent = true;
+                break;
+            }
+        }
+
+        if (isPresent) {
+            System.out.println("The letter '" + targetLetter + "' is present in the word '" + word + "'.");
+        } else {
+            System.out.println("The letter '" + targetLetter + "' is not present in the word '" + word + "'.");
+        }
+    }
+}
